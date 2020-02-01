@@ -14,10 +14,28 @@ class Categoria
             [
                 [
                     'nome' => 'categoria 1',
-                    'descricao' => 'criada para teste',
-                    'valor' => 13.000,
+                    'descricao' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit',
+                    'valor' => '13.000',
                     'criadaEm' => '01/02/2020'
-                ]
+                ],
+                [
+                    'nome' => 'categoria 2',
+                    'descricao' => 'Eveniet excepturi sapiente magni, delectus deserunt deleniti iste amet',
+                    'valor' => '22.682',
+                    'criadaEm' => '01/02/2020'
+                ],
+                [
+                    'nome' => 'categoria 3',
+                    'descricao' => 'Non, aliquam?',
+                    'valor' => '8.200',
+                    'criadaEm' => '01/02/2020'
+                ],
+                [
+                    'nome' => 'categoria 4',
+                    'descricao' => 'Cumque impedit beatae ex aperiam optio quisquam inventore laborum iste aspernatur',
+                    'valor' => '1.350',
+                    'criadaEm' => '01/02/2020'
+                ],
             ]
         ));
         return $response;
