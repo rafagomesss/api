@@ -8,6 +8,6 @@ class ConfigDB
     const HOST = 'localhost';
     const DBNAME = 'financial';
     const USER = 'root';
-    const PASSWORD = '';
+    const PASSWORD = 'root';
     const DRIVER = 'mysql';
 }

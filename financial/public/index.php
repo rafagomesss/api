@@ -10,6 +10,7 @@ $app = AppFactory::create();
 
 $app->get('/categorias', 'App\Controller\Categoria:getCategorias');
 $app->get('/categorias/{id}', 'App\Controller\Categoria:getCategoriasById');
+$app->post('/usuario', 'App\Controller\Usuario:registerNewUser');
 
 
 
